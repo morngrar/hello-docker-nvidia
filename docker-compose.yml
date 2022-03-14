@@ -1,0 +1,6 @@
+services:
+    mlmodel:
+        build: .
+        runtime: nvidia
+        volumes:
+            - .:/code
